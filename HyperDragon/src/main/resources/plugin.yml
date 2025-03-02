@@ -1,0 +1,4 @@
+name: HyperDragon
+version: '1.0-SNAPSHOT'
+main: com.java.hyperDragon.HyperDragon
+api-version: '1.21'

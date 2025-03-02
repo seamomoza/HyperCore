@@ -1,0 +1,4 @@
+name: HyperExpendable
+version: '1'
+main: org.java.hyperExpendable.HyperExpendable
+api-version: '1.21'

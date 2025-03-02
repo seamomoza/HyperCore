@@ -1,0 +1,4 @@
+name: HyperZombie
+version: '1.0-SNAPSHOT'
+main: org.kotlin.hyperZombie.HyperZombie
+api-version: '1.21'

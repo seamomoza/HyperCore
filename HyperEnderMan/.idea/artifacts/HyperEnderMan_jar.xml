@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="HyperEnderMan:jar">
+    <output-path>$USER_HOME$/OneDrive/바탕 화면/하드코어/plugins</output-path>
+    <root id="archive" name="HyperEnderMan.jar" />
+  </artifact>
+</component>

@@ -1,0 +1,4 @@
+name: HyperBed
+version: '1.0-SNAPSHOT'
+main: org.java.hyperBed.HyperBed
+api-version: '1.21'

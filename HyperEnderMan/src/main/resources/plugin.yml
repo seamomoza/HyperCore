@@ -1,0 +1,4 @@
+name: HyperEnderMan
+version: '1'
+main: org.java.hyperEnderMan.HyperEnderMan
+api-version: '1.21'

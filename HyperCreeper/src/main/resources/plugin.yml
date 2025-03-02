@@ -1,0 +1,4 @@
+name: HyperCreeper
+version: '1.0-SNAPSHOT'
+main: org.java.hyperCreeper.HyperCreeper
+api-version: '1.21'

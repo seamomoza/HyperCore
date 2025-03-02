@@ -1,0 +1,4 @@
+name: HyperSkeleton
+version: '1.0-SNAPSHOT'
+main: org.kotlin.hyperSkeleton.HyperSkeleton
+api-version: '1.21'
