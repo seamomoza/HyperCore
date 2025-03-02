@@ -42,7 +42,7 @@ public class HyperDragon extends JavaPlugin implements Listener {
             Player player = (Player) event.getEntity();
 
             // 드래곤 체력 1.5배 증가
-            dragonHealthMultiplier *= 2;
+            dragonHealthMultiplier *= 1.5;
             // 메시지 출력
             Bukkit.getLogger().info("Dragon health multiplier increased: " + dragonHealthMultiplier);
         }
@@ -85,6 +85,6 @@ public class HyperDragon extends JavaPlugin implements Listener {
     public void onplayerRespawn(PlayerRespawnEvent event){
         Player player = (Player) event.getPlayer();
         player.playSound(player.getLocation(), Sound.ENTITY_WITHER_SPAWN, 1.0f, 1.0f);
-        player.sendMessage(ChatColor.DARK_RED + "드래곤 체력 2배!: " + (int) dragonHealthMultiplier);
+        player.sendMessage(ChatColor.DARK_RED + "드래곤 체력 1.5배!: " + (int) dragonHealthMultiplier);
     }
 }
