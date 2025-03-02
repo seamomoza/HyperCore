@@ -4,7 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f496436-a5a8-466c-89c9-4d15a15b071a" name="변경" comment="" />
+    <list default="true" id="d9a329b2-9aa2-4866-9576-d4a3557603bb" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HyperDragon/.gradle/8.8/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../HyperDragon/.gradle/8.8/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HyperDragon/.gradle/8.8/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../HyperDragon/.gradle/8.8/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HyperDragon/.gradle/8.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../HyperDragon/.gradle/8.8/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HyperDragon/.gradle/8.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../HyperDragon/.gradle/8.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HyperDragon/.gradle/8.8/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../HyperDragon/.gradle/8.8/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HyperDragon/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../HyperDragon/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HyperDragon/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/../HyperDragon/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HyperDragon/build/classes/java/main/com/java/hyperDragon/HyperDragon$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HyperDragon/build/classes/java/main/com/java/hyperDragon/HyperDragon$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HyperDragon/build/classes/java/main/com/java/hyperDragon/HyperDragon$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HyperDragon/build/classes/java/main/com/java/hyperDragon/HyperDragon$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HyperDragon/build/classes/java/main/com/java/hyperDragon/HyperDragon.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HyperDragon/build/classes/java/main/com/java/hyperDragon/HyperDragon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HyperDragon/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../HyperDragon/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HyperDragon/src/main/java/com/java/hyperDragon/HyperDragon.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HyperDragon/src/main/java/com/java/hyperDragon/HyperDragon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HyperEnderMan/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../HyperEnderMan/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HyperEnderMan/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../HyperEnderMan/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HyperEnderMan/.idea/artifacts/HyperEnderMan_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HyperEnderMan/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HyperEnderMan/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HyperEnderMan/src/main/java/org/java/hyperEnderMan/HyperEnderMan.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HyperEnderMan/src/main/java/org/java/hyperEnderMan/HyperEnderMan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HyperEnderMan/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../HyperEnderMan/src/main/resources/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/java/hyperPlayer/HyperPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/java/hyperPlayer/HyperPlayer.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,61 +59,47 @@
       </state>
     </system>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;seamomoza&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/seamomoza/HyperCore.git&quot;,
+    &quot;accountId&quot;: &quot;24d8477e-e456-4485-a4d8-74819eba79a0&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
-  <component name="ProjectId" id="2taeEMyBBWckMPHR3qD2E3VktsU" />
+  <component name="ProjectId" id="2tk1TLG5zuvRgSyRO46KnnLiYcZ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;Gradle.C:/Users/user/IdeaProjects/HyperPlayer [wrapper].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.HyperPlayer [build].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.HyperPlayer [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.C:/Users/user/OneDrive/바탕 화면/HyperCore Plugins/HyperPlayer [wrapper].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.HyperPlayer [clean build].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RunAnythingCache">
     <option name="myCommands">
-      <command value="./gradlew build" />
-      <command value="./gradlew clean" />
+      <command value="./gradlew clean build" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.HyperPlayer [build]">
-    <configuration name="HyperPlayer [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="HyperPlayer [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager">
+    <configuration name="HyperPlayer [clean build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -101,6 +111,7 @@
         <option name="taskNames">
           <list>
             <option value="clean" />
+            <option value="build" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -113,43 +124,19 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.HyperPlayer [build]" />
-        <item itemvalue="Gradle.HyperPlayer [clean]" />
+        <item itemvalue="Gradle.HyperPlayer [clean build]" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.24978.46" />
-        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-IU-243.24978.46" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="디폴트 작업">
-      <changelist id="7f496436-a5a8-466c-89c9-4d15a15b071a" name="변경" comment="" />
-      <created>1740594499899</created>
+      <changelist id="d9a329b2-9aa2-4866-9576-d4a3557603bb" name="변경" comment="" />
+      <created>1740881264784</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1740594499899</updated>
-      <workItem from="1740594500949" duration="618000" />
-      <workItem from="1740622882808" duration="48000" />
-      <workItem from="1740626870103" duration="423000" />
-      <workItem from="1740627967699" duration="3000" />
-      <workItem from="1740634210710" duration="1266000" />
-      <workItem from="1740635495109" duration="1841000" />
-      <workItem from="1740646713259" duration="180000" />
-      <workItem from="1740647059080" duration="1034000" />
-      <workItem from="1740650936266" duration="965000" />
-      <workItem from="1740654961861" duration="6000" />
-      <workItem from="1740655012284" duration="6000" />
-      <workItem from="1740665902172" duration="616000" />
+      <updated>1740881264784</updated>
     </task>
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
   </component>
 </project>

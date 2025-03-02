@@ -2,9 +2,7 @@ package org.java.hyperPlayer;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
-import org.bukkit.block.Block;
-import org.bukkit.entity.Item;
-import org.bukkit.entity.Player;
+import org.bukkit.Material;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.BlockBreakEvent;
@@ -13,46 +11,43 @@ import org.bukkit.event.entity.EntityDeathEvent;
 import org.bukkit.event.entity.PlayerDeathEvent;
 import org.bukkit.event.player.PlayerRespawnEvent;
 import org.bukkit.inventory.ItemStack;
-import org.bukkit.metadata.FixedMetadataValue;
 import org.bukkit.plugin.java.JavaPlugin;
+import org.bukkit.entity.Player;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashSet;
+import java.util.Set;
 
 public class HyperPlayer extends JavaPlugin implements Listener {
+    private final Set<String> placedBlocks = new HashSet<>();
 
     @Override
     public void onEnable() {
-        // 플러그인 활성화 시 이벤트 리스너 등록
-        Bukkit.getServer().getPluginManager().registerEvents(this, this);
-        getLogger().info("드랍률 2배 적용됨!");
-    }
-
-    @Override
-    public void onDisable() {
-        getLogger().info("드랍률 1배로 복구됨.");
+        getServer().getPluginManager().registerEvents(this, this);
     }
 
     @EventHandler
     public void onBlockPlace(BlockPlaceEvent event) {
-        Block block = event.getBlock();
-        block.setMetadata("placed_by_player", new FixedMetadataValue(this, true));
+        // 플레이어가 설치한 블록의 위치를 추적
+        placedBlocks.add(event.getBlock().getLocation().toString());
     }
 
     @EventHandler
     public void onBlockBreak(BlockBreakEvent event) {
-        Block block = event.getBlock();
-
-        // 플레이어가 설치한 블록이면 2배 드랍을 적용하지 않음
-        if (block.hasMetadata("placed_by_player")) {
+        // 설치된 블록인지 확인
+        if (placedBlocks.contains(event.getBlock().getLocation().toString())) {
+            // 설치된 블록은 드랍률을 적용하지 않음
             return;
         }
 
-        List<ItemStack> extraDrops = new ArrayList<>();
-        for (ItemStack drop : block.getDrops()) {
-            extraDrops.add(new ItemStack(drop.getType(), drop.getAmount()));
+        // 블록이 부서질 때 나오는 드랍 아이템을 가져옴
+        for (ItemStack item : event.getBlock().getDrops(event.getPlayer().getItemInHand())) {
+            // 아이템을 한 번 더 드랍하여 자연스럽게 두 배 드랍되도록 함
+            event.getBlock().getWorld().dropItemNaturally(event.getBlock().getLocation(), item);
+            event.getBlock().getWorld().dropItemNaturally(event.getBlock().getLocation(), item);
         }
-        extraDrops.forEach(item -> block.getWorld().dropItemNaturally(block.getLocation(), item));
+
+        // 기본 드랍을 비활성화하여 우리가 설정한 아이템만 드랍되도록 함
+        event.setDropItems(false);
     }
 
 
@@ -73,7 +68,7 @@ public class HyperPlayer extends JavaPlugin implements Listener {
     @EventHandler
     public void onPlayerRespawn(PlayerRespawnEvent event) {
         Player player = event.getPlayer();
-        player.sendMessage(ChatColor.RED + "ㅋ!" + player.getName() + "님" + "죽으셨네요? 인벤토리는 제가 가져갑니다ㅋ");
+        player.sendMessage(ChatColor.GREEN + "인벤토리가 초기화됐습니다!");
         player.getInventory().clear();
 
         // 마지막 리스폰 위치로 순간이동
@@ -84,4 +79,5 @@ public class HyperPlayer extends JavaPlugin implements Listener {
             event.setRespawnLocation(Bukkit.getWorld("world").getSpawnLocation());
         }
     }
+
 }

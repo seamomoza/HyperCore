@@ -61,9 +61,13 @@ public class HyperEnderMan extends JavaPlugin implements Listener {
         if (itemToRemove != null && itemToRemove.getType() != Material.AIR) {
             // 아이템 삭제
             inventory.setItem(randomSlot, null); // 아이템 삭제
-            player.sendMessage(ChatColor.RED + "ㅋ! " + player.getName() + "님 엔더맨한테 " + itemToRemove.getType().toString() + "이(가) 탈탈털렸네요?");
+            player.sendMessage(ChatColor.YELLOW + "ㅋ! " + player.getName() + "님 엔더맨한테 " + itemToRemove.getType().toString() + "뻈김ㅋㅋ");
+
+            // 좀비 주민 치료 소리 재생
+            player.getWorld().playSound(player.getLocation(), Sound.ENTITY_ZOMBIE_VILLAGER_CURE, 1.0F, 1.0F);
         }
     }
+
 
     @Override
     public void onDisable() {

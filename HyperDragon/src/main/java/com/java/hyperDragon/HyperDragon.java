@@ -2,6 +2,7 @@ package com.java.hyperDragon;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
+import org.bukkit.Sound;
 import org.bukkit.World;
 import org.bukkit.attribute.Attribute;
 import org.bukkit.entity.EnderDragon;
@@ -10,6 +11,7 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.EntityDeathEvent;
 import org.bukkit.event.player.PlayerPortalEvent;
+import org.bukkit.event.player.PlayerRespawnEvent;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.scheduler.BukkitRunnable;
 
@@ -40,12 +42,12 @@ public class HyperDragon extends JavaPlugin implements Listener {
             Player player = (Player) event.getEntity();
 
             // 드래곤 체력 1.5배 증가
-            dragonHealthMultiplier *= 1.5;
+            dragonHealthMultiplier *= 2;
             // 메시지 출력
-            player.sendMessage(ChatColor.RED + "드래곤 체력 1.5배!: " + dragonHealthMultiplier);
             Bukkit.getLogger().info("Dragon health multiplier increased: " + dragonHealthMultiplier);
         }
     }
+
 
     private void setDragonHealth(final Player player) {
         new BukkitRunnable() {
@@ -78,5 +80,11 @@ public class HyperDragon extends JavaPlugin implements Listener {
                 }
             }
         }.runTask(this); // 엔더월드에 들어갔을 때 즉시 실행
+    }
+    @EventHandler
+    public void onplayerRespawn(PlayerRespawnEvent event){
+        Player player = (Player) event.getPlayer();
+        player.playSound(player.getLocation(), Sound.ENTITY_WITHER_SPAWN, 1.0f, 1.0f);
+        player.sendMessage(ChatColor.DARK_RED + "드래곤 체력 2배!: " + (int) dragonHealthMultiplier);
     }
 }
