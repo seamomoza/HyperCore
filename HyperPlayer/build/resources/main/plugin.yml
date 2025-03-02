@@ -1,0 +1,4 @@
+name: HyperPlayer
+version: '1.0-SNAPSHOT'
+main: org.java.hyperPlayer.HyperPlayer
+api-version: '1.21'

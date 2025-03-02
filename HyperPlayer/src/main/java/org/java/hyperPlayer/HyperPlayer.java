@@ -25,31 +25,6 @@ public class HyperPlayer extends JavaPlugin implements Listener {
         getServer().getPluginManager().registerEvents(this, this);
     }
 
-    @EventHandler
-    public void onBlockPlace(BlockPlaceEvent event) {
-        // 플레이어가 설치한 블록의 위치를 추적
-        placedBlocks.add(event.getBlock().getLocation().toString());
-    }
-
-    @EventHandler
-    public void onBlockBreak(BlockBreakEvent event) {
-        // 설치된 블록인지 확인
-        if (placedBlocks.contains(event.getBlock().getLocation().toString())) {
-            // 설치된 블록은 드랍률을 적용하지 않음
-            return;
-        }
-
-        // 블록이 부서질 때 나오는 드랍 아이템을 가져옴
-        for (ItemStack item : event.getBlock().getDrops(event.getPlayer().getItemInHand())) {
-            // 아이템을 한 번 더 드랍하여 자연스럽게 두 배 드랍되도록 함
-            event.getBlock().getWorld().dropItemNaturally(event.getBlock().getLocation(), item);
-            event.getBlock().getWorld().dropItemNaturally(event.getBlock().getLocation(), item);
-        }
-
-        // 기본 드랍을 비활성화하여 우리가 설정한 아이템만 드랍되도록 함
-        event.setDropItems(false);
-    }
-
 
     @EventHandler
     public void onPlayerDeath(PlayerDeathEvent event) {

@@ -5,28 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9a329b2-9aa2-4866-9576-d4a3557603bb" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HyperDragon/.gradle/8.8/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../HyperDragon/.gradle/8.8/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HyperDragon/.gradle/8.8/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../HyperDragon/.gradle/8.8/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HyperDragon/.gradle/8.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../HyperDragon/.gradle/8.8/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HyperDragon/.gradle/8.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../HyperDragon/.gradle/8.8/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HyperDragon/.gradle/8.8/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../HyperDragon/.gradle/8.8/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HyperDragon/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../HyperDragon/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HyperDragon/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/../HyperDragon/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HyperDragon/build/classes/java/main/com/java/hyperDragon/HyperDragon$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HyperDragon/build/classes/java/main/com/java/hyperDragon/HyperDragon$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HyperDragon/build/classes/java/main/com/java/hyperDragon/HyperDragon$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HyperDragon/build/classes/java/main/com/java/hyperDragon/HyperDragon$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HyperDragon/build/classes/java/main/com/java/hyperDragon/HyperDragon.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HyperDragon/build/classes/java/main/com/java/hyperDragon/HyperDragon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HyperDragon/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../HyperDragon/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HyperDragon/src/main/java/com/java/hyperDragon/HyperDragon.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HyperDragon/src/main/java/com/java/hyperDragon/HyperDragon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HyperEnderMan/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../HyperEnderMan/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HyperEnderMan/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../HyperEnderMan/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HyperEnderMan/.idea/artifacts/HyperEnderMan_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HyperEnderMan/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HyperEnderMan/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HyperEnderMan/src/main/java/org/java/hyperEnderMan/HyperEnderMan.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HyperEnderMan/src/main/java/org/java/hyperEnderMan/HyperEnderMan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HyperEnderMan/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../HyperEnderMan/src/main/resources/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/java/hyperPlayer/HyperPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/java/hyperPlayer/HyperPlayer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/java/hyperPlayer/HyperPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/java/hyperPlayer/HyperPlayer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
