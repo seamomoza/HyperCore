@@ -1,0 +1,4 @@
+name: HyperRebirth
+version: '1.0-SNAPSHOT'
+main: org.java.hyperRebirth.HyperRebirth
+api-version: '1.21'
