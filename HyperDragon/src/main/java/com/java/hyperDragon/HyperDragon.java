@@ -95,6 +95,7 @@ public class HyperDragon extends JavaPlugin implements Listener {
                 player.addPotionEffect(new PotionEffect(PotionEffectType.ABSORPTION, 2400, 1));
                 player.addPotionEffect(new PotionEffect(PotionEffectType.RESISTANCE, 100, 1));
                 player.sendMessage(ChatColor.GOLD + "부활했습니다! 남은 부활횟수: " + Rebirth);
+                player.sendMessage(ChatColor.DARK_RED + "드래곤 체력 2배!: " + (int) dragonHealthMultiplier);
             }, 1L);
         }
     }
@@ -129,7 +130,6 @@ public class HyperDragon extends JavaPlugin implements Listener {
 
                 final EnderDragon dragon = endWorld.getEntitiesByClass(EnderDragon.class).stream().findFirst().orElse(null);
 
-                if (dragon != null) {
                     dragon.getAttribute(Attribute.MAX_HEALTH).setBaseValue(dragonHealthMultiplier);
                     dragon.setHealth(dragonHealthMultiplier);
 
@@ -139,12 +139,10 @@ public class HyperDragon extends JavaPlugin implements Listener {
                             double currentHealth = dragon.getHealth();
                             player.sendActionBar(ChatColor.YELLOW + "드래곤 체력: " + ChatColor.DARK_PURPLE + (int) currentHealth);
                         }
-                    }.runTaskTimer(HyperDragon.this, 10L, 1L);
+                    }.runTaskTimer(HyperDragon.this, 0L, 1L);
                     Bukkit.getLogger().info("Ender Dragon's health set to: " + dragonHealthMultiplier);
-                } else {
-                    player.sendMessage("No Ender Dragon found in the End!");
                 }
-            }
+
         }.runTask(this);
     }
 }
