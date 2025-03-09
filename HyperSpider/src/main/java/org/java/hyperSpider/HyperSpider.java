@@ -34,7 +34,7 @@ public class HyperSpider extends JavaPlugin implements Listener {
 
             spider.getAttribute(Attribute.KNOCKBACK_RESISTANCE).setBaseValue(1000000000.0);
             // 스파이더에게 무한 속도 2, 힘 1, 저항 1, 레제네이션 1 버프 추가
-            spider.addPotionEffect(new PotionEffect(PotionEffectType.SPEED, Integer.MAX_VALUE, 1)); // 속도 2
+            spider.addPotionEffect(new PotionEffect(PotionEffectType.SPEED, Integer.MAX_VALUE, 2)); // 속도 2
             spider.addPotionEffect(new PotionEffect(PotionEffectType.STRENGTH, Integer.MAX_VALUE, 1)); // 힘 1
             spider.addPotionEffect(new PotionEffect(PotionEffectType.RESISTANCE, Integer.MAX_VALUE, 2)); // 저항 1
             spider.addPotionEffect(new PotionEffect(PotionEffectType.REGENERATION, Integer.MAX_VALUE, 1)); // 레제네이션 1
