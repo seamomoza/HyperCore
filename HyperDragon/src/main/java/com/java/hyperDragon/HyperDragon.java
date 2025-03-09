@@ -47,7 +47,7 @@ public class HyperDragon extends JavaPlugin implements Listener {
     public void onPlayerDeath(EntityDeathEvent event) {
         if (event.getEntity() instanceof Player) {
             Player player = (Player) event.getEntity();
-            dragonHealthMultiplier *= 2;
+            dragonHealthMultiplier *= 1.2;
             Bukkit.getLogger().info("Dragon health multiplier increased: " + dragonHealthMultiplier);
         }
     }
@@ -56,7 +56,7 @@ public class HyperDragon extends JavaPlugin implements Listener {
     public void onPlayerRespawn(PlayerRespawnEvent event) {
         Player player = event.getPlayer();
         player.playSound(player.getLocation(), Sound.ENTITY_WITHER_SPAWN, 1.0f, 1.0f);
-        player.sendMessage(ChatColor.DARK_RED + "드래곤 체력 2배!: " + (int) dragonHealthMultiplier);
+        player.sendMessage(ChatColor.DARK_RED + "드래곤 체력 1.2배!: " + (int) dragonHealthMultiplier);
     }
 
     @EventHandler
@@ -95,7 +95,7 @@ public class HyperDragon extends JavaPlugin implements Listener {
                 player.addPotionEffect(new PotionEffect(PotionEffectType.ABSORPTION, 2400, 1));
                 player.addPotionEffect(new PotionEffect(PotionEffectType.RESISTANCE, 100, 1));
                 player.sendMessage(ChatColor.GOLD + "부활했습니다! 남은 부활횟수: " + Rebirth);
-                player.sendMessage(ChatColor.DARK_RED + "드래곤 체력 2배!: " + (int) dragonHealthMultiplier);
+                player.sendMessage(ChatColor.DARK_RED + "드래곤 체력 1.2배!: " + (int) dragonHealthMultiplier);
             }, 1L);
         }
     }
