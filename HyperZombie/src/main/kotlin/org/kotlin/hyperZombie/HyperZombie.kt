@@ -37,7 +37,6 @@ class HyperZombie : JavaPlugin(), Listener {
     }
 
 
-
     // 하이퍼 좀비가 공격할 때 10번 연속 공격
     @EventHandler
     fun onZombieAttack(event: EntityDamageByEntityEvent) {
@@ -54,7 +53,7 @@ class HyperZombie : JavaPlugin(), Listener {
                 object : BukkitRunnable() {
                     override fun run() {
                         if (attackCount < 10 && target.isValid && zombie.isValid) {
-                            target.damage(2.0) // 2.0 피해를 1회 공격
+                            target.damage(2.0, zombie)// 2.0 피해를 1회 공격
                             target.noDamageTicks = 0
                             attackCount++ // 공격 횟수 증가
                         } else {
@@ -65,8 +64,4 @@ class HyperZombie : JavaPlugin(), Listener {
             }
         }
     }
-}
-
-private fun LivingEntity.sendActionBar(s: String) {
-
 }
