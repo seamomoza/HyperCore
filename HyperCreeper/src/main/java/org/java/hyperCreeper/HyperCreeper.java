@@ -76,7 +76,7 @@ public class HyperCreeper extends JavaPlugin implements Listener, Runnable {
             Creeper creeper = (Creeper) event.getEntity();
             AttributeInstance attribute = creeper.getAttribute(Attribute.MAX_HEALTH);
             if (attribute != null) {
-                attribute.setBaseValue(120727.3);
+                attribute.setBaseValue(1000.0);
                 creeper.setHealth(attribute.getBaseValue());
             }
         }

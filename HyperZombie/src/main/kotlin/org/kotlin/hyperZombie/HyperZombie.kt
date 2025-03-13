@@ -2,6 +2,7 @@ package org.kotlin.hyperZombie
 
 import org.bukkit.Material
 import org.bukkit.attribute.Attribute
+import org.bukkit.entity.Entity
 import org.bukkit.entity.LivingEntity
 import org.bukkit.entity.Zombie
 import org.bukkit.event.EventHandler
@@ -36,32 +37,29 @@ class HyperZombie : JavaPlugin(), Listener {
         }
     }
 
-
-    // 하이퍼 좀비가 공격할 때 10번 연속 공격
     @EventHandler
     fun onZombieAttack(event: EntityDamageByEntityEvent) {
         if (event.damager is Zombie) {
             val zombie = event.damager as Zombie
+            val target = event.entity as? LivingEntity ?: return
 
-            // 대상이 살아있는 엔티티일 경우
-            if (event.entity is LivingEntity) {
-                event.isCancelled = true
-                val target = event.entity as LivingEntity
-                var attackCount = 0 // 연속 공격 횟수 카운터
+            // 공격을 취소
+            event.isCancelled = true
 
-                // 10번 연속 공격
-                object : BukkitRunnable() {
-                    override fun run() {
-                        if (attackCount < 10 && target.isValid && zombie.isValid) {
-                            target.damage(2.0, zombie)// 2.0 피해를 1회 공격
-                            target.noDamageTicks = 0
-                            attackCount++ // 공격 횟수 증가
-                        } else {
-                            cancel() // 10번 공격 후 반복 중단
-                        }
+            // 1틱 간격으로 10번 공격
+            object : BukkitRunnable() {
+                var attacks = 0
+
+                override fun run() {
+                    if (attacks < 10) {
+                        target.damage(2.0)
+                        target.noDamageTicks = 0
+                        attacks++
+                    } else {
+                        cancel()
                     }
-                }.runTaskTimer(this, 0L, 1L) // 0초 후 첫 공격, 그 후 0.5초(10틱)마다 반복 공격
-            }
+                }
+            }.runTaskTimer(this, 0L, 1L)
         }
     }
 }
